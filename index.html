@@ -1,28 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
     <header>
         <div class="logo">
 
         </div>
-        <div class="nav-bar">
+        <div class="nav-bar" id="menu">
             <ul>
                 <!-- non dropdown aggiungere link  -->
                 <li>Personale</li>
                 <li>Business</li>
                 <li>Tariffazione</li>
                 <!-- dropdown menus -->
-                <li class="Accounts"><a href="#">Accounts</a></li>
-                <li class="Prodotti"><a href="#">Prodotti</a></li>
-                <li class="Azienda"><a href="#">Azienda</a></li>
-                <li class="Aiuto"><a href="#">Aiuto</a></li>
-                <li class="Lingue"><a href="#">Lingue</a></li>
+                <li class="accounts">
+                    <a href="#">Accounts</a>
+                    <div class="dropdown" id="account">
+                        <ul>
+                            <li>Premium</li>
+                            <li>Gold</li>
+                            <li>Silver</li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="prodotti">
+                    <a href="#">Prodotti</a>
+                </li>
+                <li class="azienda">
+                    <a href="#">Azienda</a>
+                </li>
+                <li class="aiuto">
+                    <a href="#">Aiuto</a>
+                </li>
+                <li class="lingue">
+                    <a href="#">Lingue</a>
+                </li>
             </ul>
         </div>
         <div class="btn">
@@ -45,4 +65,5 @@
 
     <script src="js\script.js"></script>
 </body>
+
 </html>

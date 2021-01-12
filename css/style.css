@@ -20,17 +20,34 @@ header{
    background-color: cornflowerblue;
    
 }
-ul{
+#menu ul{
     list-style: none;
     line-height: 70px;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
 }
-ul li{
+#menu ul li{
     display: inline;
 }
-ul li a{
+#menu ul li a{
     text-decoration: none;
     color:  black;
+}
+.dropdown{
+    background-color: white;
+    display: none;
+}
+.dropdown.active{
+    display: flex;
+}
+#account{
+    position: absolute;
+    top: 80px;
+    left: 895px;
+}
+
+#account ul{
+    display: flex;
+    flex-direction: column;
 }
