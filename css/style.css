@@ -6,9 +6,31 @@
 header{
     width: 100%;
     background-color: darkblue;
+    display: flex;
+    flex-direction: row;
+    
 }
 .logo{
     width: 20%;
     height: 70px;
     background-color: darkcyan;
+}
+.nav-bar{
+   width: 60%;
+   background-color: cornflowerblue;
+   
+}
+ul{
+    list-style: none;
+    line-height: 70px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+ul li{
+    display: inline;
+}
+ul li a{
+    text-decoration: none;
+    color:  black;
 }
