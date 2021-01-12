@@ -1,5 +1,20 @@
 $(document).ready(function(){
     $('.accounts').click(function(){
-        $('.dropdown').toggleClass('active')
+        $('#account').toggleClass('active')
+    });
+});
+$(document).ready(function(){
+    $('.prodotti').click(function(){
+        $('#prodotto').toggleClass('active')
+    });
+});
+$(document).ready(function(){
+    $('.azienda').click(function(){
+        $('#company').toggleClass('active')
+    });
+});
+$(document).ready(function(){
+    $('.aiuto').click(function(){
+        $('#help').toggleClass('active')
     });
 });

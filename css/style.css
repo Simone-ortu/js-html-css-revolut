@@ -35,7 +35,6 @@ header{
     color:  black;
 }
 .dropdown{
-    background-color: white;
     display: none;
 }
 .dropdown.active{
@@ -43,11 +42,58 @@ header{
 }
 #account{
     position: absolute;
+    padding: 0 20px;
     top: 80px;
-    left: 895px;
+    left: 46%;
+    box-shadow: 0 5px 5px #a0a0a0ec;
 }
 
 #account ul{
     display: flex;
     flex-direction: column;
+}
+#account ul li{
+    padding-left: 10px;
+}
+#prodotto{
+    position: absolute;
+    padding: 0 20px;
+    top: 80px;
+    left: 53%;
+    box-shadow: 0 5px 5px #a0a0a0ec;
+}
+#prodotto ul{
+    display: flex;
+    flex-direction: column;
+}
+#prodotto ul li{
+    padding-left: 10px;
+}
+#company{
+    position: absolute;
+    padding: 0 20px;
+    top: 80px;
+    left: 60%;
+    box-shadow: 0 5px 5px #a0a0a0ec;
+}
+#company ul{
+    display: flex;
+    flex-direction: column;
+}
+#company ul li{
+    padding-left: 10px;
+}
+#help{
+    position: absolute;
+    padding: 0 20px;
+    top: 80px;
+    left: 67%;
+    box-shadow: 0 5px 5px #a0a0a0ec;
+}
+#help ul{
+    display: flex;
+    flex-direction: column;
+}
+#help ul li{
+    padding-left: 10px;
 }
