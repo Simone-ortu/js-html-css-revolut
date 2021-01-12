@@ -6,6 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+        integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
+        crossorigin="anonymous" />
     <link rel="stylesheet" href="css/style.css">
 </head>
 
@@ -17,8 +23,8 @@
         <div class="nav-bar" id="menu">
             <ul>
                 <!-- non dropdown aggiungere link  -->
-                <li>Personale</li>
-                <li>Business</li>
+                <li class="upper black">Personale</li>
+                <li class="upper">Business</li>
                 <li>Tariffazione</li>
                 <!-- dropdown menus -->
                 <li class="accounts">
@@ -35,9 +41,16 @@
                     <a href="#">Prodotti</a>
                     <div class="dropdown" id="prodotto">
                         <ul>
-                            <li>Premium</li>
-                            <li>Gold</li>
-                            <li>Silver</li>
+                            <li>Trasferimento di denaro</li>
+                            <li>Salvadanaio</li>
+                            <li>Gestione Budget</li>
+                            <li>Perk</li>
+                            <li>Criptovaluta</li>
+                            <li>Assicurazione Samrtphone</li>
+                            <li>Assicurazione medica internazionale</li>
+                            <li>API di open banking</li>
+                            <li>Apple Pay</li>
+                            <li>Donazioni</li>
                         </ul>
                     </div>
                 </li>
@@ -45,9 +58,12 @@
                     <a href="#">Azienda</a>
                     <div class="dropdown" id="company">
                         <ul>
-                            <li>Premium</li>
-                            <li>Gold</li>
-                            <li>Silver</li>
+                            <li>Chi siamo</li>
+                            <li>Blog</li>
+                            <li>Lavora con noi</li>
+                            <li>Affiliates</li>
+                            <li>Influencers</li>
+                            <li>Contatto</li>
                         </ul>
                     </div>
                 </li>
@@ -55,18 +71,26 @@
                     <a href="#">Aiuto</a>
                     <div class="dropdown" id="help">
                         <ul>
-                            <li>Premium</li>
-                            <li>Gold</li>
-                            <li>Silver</li>
+                            <li>Commiunity</li>
+                            <li>Centro Assistenza</li>
+                            <li>Security</li>
+                            <li>Stato di sistema</li>
                         </ul>
                     </div>
                 </li>
                 <li class="lingue">
-                    <a href="#">Lingue</a>
+                    <a href="#">IT<i class="fas fa-chevron-down"></i></a>
+                    <div class="dropdown" id="lang">
+                        <ul>
+                            <li>Italiano</li>
+                            <li>Inglese</li>
+                        </ul>
+                    </div>
                 </li>
             </ul>
         </div>
         <div class="btn">
+            Scarica l'app
 
         </div>
     </header>
